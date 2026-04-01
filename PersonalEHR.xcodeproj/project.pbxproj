@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0256B74CBE44944D48154055 /* PersonalEHRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB98FC28D25288491F85870 /* PersonalEHRApp.swift */; };
+		03A84BB8FAEB63BCCB6679F8 /* DocumentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1F472601F9D518F192FC9 /* DocumentListView.swift */; };
+		137FDD9F7A7461CF01451C56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8BD4EA80671DE35C335157 /* ContentView.swift */; };
+		1AA3E2FA0A377E203B90DB4F /* DocumentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E499E0BF581D26100B5615D2 /* DocumentViewModel.swift */; };
+		1CE037547DF0E0FFB0576387 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A767DF915DDF8564A4A719 /* ProfileView.swift */; };
+		3C6AAF3250990EF0DACA7ABC /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5CE1AB2E4BA5E7AD75DA16 /* RegisterView.swift */; };
+		513C20A3A85B22E3F582A268 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609919AF9F3C1F0389449E9C /* AuthViewModel.swift */; };
+		5B51CA4652F44AB3892FD887 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4501CDC0319534A1A3E4B060 /* Document.swift */; };
+		60166C54D94A478F2D867680 /* AIChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BDC99B98757A1DEB876016 /* AIChatView.swift */; };
+		6AE2353C641294083FDCD668 /* AIConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFCA376BE61456067B68ED6 /* AIConversation.swift */; };
+		8006A43E98A5B3BA4859744F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6B8C910BD59B03FC516358 /* Profile.swift */; };
+		80924309A30B52FD01059CD7 /* DocumentUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B35718DA9325EC72F48CC9A /* DocumentUploadView.swift */; };
+		840700DA83324205E5537B5A /* DocumentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE39B3C82F1BAFD521E1A5 /* DocumentDetailView.swift */; };
+		8B3C90F10766F614EEDF22B5 /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C109FA2B4E77A215F8164E /* AIService.swift */; };
+		941E746CFA3278D96A032FF4 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 640B974E4B6F39F4652EA6E1 /* Supabase */; };
+		9CDFC3FF1619AB96E918A021 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D984C327A442432F56A1DBB /* LoginView.swift */; };
+		A754E9FBD3E5797A0BBDE6FC /* AIChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF70FD10CE30B85E5B11BDA /* AIChatViewModel.swift */; };
+		A8625214225BB3F00D953334 /* DocumentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB25FE71B0DDF9E4D2C1AE8 /* DocumentService.swift */; };
+		BCD589644D17E0F90D26763E /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686A733658CAF293E098C39 /* AuthService.swift */; };
+		E1034AF60ACE0E75A2A4F267 /* AIMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762158DA8CF5B36F1FB90DF1 /* AIMessageView.swift */; };
+		E3EA76FA03099F209D147393 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB387B65924905AC743ECA82 /* Constants.swift */; };
+		E97416F683825F72D0F56DD2 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF313E3E7ACBE0DF1381E0 /* StorageService.swift */; };
+		F08D438C6D09BC9F5EB8D557 /* SupabaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203C9E5482754CB1101F95C6 /* SupabaseClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FB25FE71B0DDF9E4D2C1AE8 /* DocumentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentService.swift; sourceTree = "<group>"; };
+		1BDF313E3E7ACBE0DF1381E0 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		1FEFCF11B6A726207DECAE77 /* PersonalEHR.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PersonalEHR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		203C9E5482754CB1101F95C6 /* SupabaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseClient.swift; sourceTree = "<group>"; };
+		2EF1F472601F9D518F192FC9 /* DocumentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentListView.swift; sourceTree = "<group>"; };
+		4501CDC0319534A1A3E4B060 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		609919AF9F3C1F0389449E9C /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		6B35718DA9325EC72F48CC9A /* DocumentUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentUploadView.swift; sourceTree = "<group>"; };
+		6D984C327A442432F56A1DBB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		762158DA8CF5B36F1FB90DF1 /* AIMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIMessageView.swift; sourceTree = "<group>"; };
+		7D3C2B0F07DB36D814B77558 /* PersonalEHR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PersonalEHR.entitlements; sourceTree = "<group>"; };
+		9CFCA376BE61456067B68ED6 /* AIConversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIConversation.swift; sourceTree = "<group>"; };
+		A9BDC99B98757A1DEB876016 /* AIChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatView.swift; sourceTree = "<group>"; };
+		AA6B8C910BD59B03FC516358 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		BE8BD4EA80671DE35C335157 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D686A733658CAF293E098C39 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		E3C109FA2B4E77A215F8164E /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		E499E0BF581D26100B5615D2 /* DocumentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewModel.swift; sourceTree = "<group>"; };
+		EA5CE1AB2E4BA5E7AD75DA16 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		F7A767DF915DDF8564A4A719 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FAF70FD10CE30B85E5B11BDA /* AIChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatViewModel.swift; sourceTree = "<group>"; };
+		FB387B65924905AC743ECA82 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FDAE39B3C82F1BAFD521E1A5 /* DocumentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentDetailView.swift; sourceTree = "<group>"; };
+		FFB98FC28D25288491F85870 /* PersonalEHRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalEHRApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		596FEB96734B9F53012E8592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941E746CFA3278D96A032FF4 /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FD7FE05B8228AC047A328BD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E3C109FA2B4E77A215F8164E /* AIService.swift */,
+				D686A733658CAF293E098C39 /* AuthService.swift */,
+				0FB25FE71B0DDF9E4D2C1AE8 /* DocumentService.swift */,
+				1BDF313E3E7ACBE0DF1381E0 /* StorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1298FF34B4978CA83BA655A4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BE8BD4EA80671DE35C335157 /* ContentView.swift */,
+				FFB98FC28D25288491F85870 /* PersonalEHRApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		15AD7856D2C39712797D2946 /* PersonalEHR */ = {
+			isa = PBXGroup;
+			children = (
+				1298FF34B4978CA83BA655A4 /* App */,
+				DFEBD23E6DB35CDC477238D9 /* Models */,
+				D155A4F6E08317A018252CEF /* Resources */,
+				0FD7FE05B8228AC047A328BD /* Services */,
+				ED0D2B3851B4A3BF648ECBD6 /* Utilities */,
+				7A9AC59BBB8F1EFA62464369 /* ViewModels */,
+				FF4632A0F72B21D828275D3D /* Views */,
+			);
+			path = PersonalEHR;
+			sourceTree = "<group>";
+		};
+		1F38D8786E59D82E32EEBC5C /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				A9BDC99B98757A1DEB876016 /* AIChatView.swift */,
+				762158DA8CF5B36F1FB90DF1 /* AIMessageView.swift */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		29FD8BB00E091BB563B66339 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F7A767DF915DDF8564A4A719 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3E7AB6031C8746B6C831BDA1 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				FDAE39B3C82F1BAFD521E1A5 /* DocumentDetailView.swift */,
+				2EF1F472601F9D518F192FC9 /* DocumentListView.swift */,
+				6B35718DA9325EC72F48CC9A /* DocumentUploadView.swift */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		6B62B6CAE8D9AB53B14C05B0 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				6D984C327A442432F56A1DBB /* LoginView.swift */,
+				EA5CE1AB2E4BA5E7AD75DA16 /* RegisterView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		6E0C1A2A1DCAA4A7C3A189A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FEFCF11B6A726207DECAE77 /* PersonalEHR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A9AC59BBB8F1EFA62464369 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FAF70FD10CE30B85E5B11BDA /* AIChatViewModel.swift */,
+				609919AF9F3C1F0389449E9C /* AuthViewModel.swift */,
+				E499E0BF581D26100B5615D2 /* DocumentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C799B2396B32681E50D1C814 = {
+			isa = PBXGroup;
+			children = (
+				15AD7856D2C39712797D2946 /* PersonalEHR */,
+				6E0C1A2A1DCAA4A7C3A189A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D155A4F6E08317A018252CEF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D3C2B0F07DB36D814B77558 /* PersonalEHR.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DFEBD23E6DB35CDC477238D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9CFCA376BE61456067B68ED6 /* AIConversation.swift */,
+				4501CDC0319534A1A3E4B060 /* Document.swift */,
+				AA6B8C910BD59B03FC516358 /* Profile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED0D2B3851B4A3BF648ECBD6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FB387B65924905AC743ECA82 /* Constants.swift */,
+				203C9E5482754CB1101F95C6 /* SupabaseClient.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FF4632A0F72B21D828275D3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F38D8786E59D82E32EEBC5C /* AI */,
+				6B62B6CAE8D9AB53B14C05B0 /* Auth */,
+				3E7AB6031C8746B6C831BDA1 /* Documents */,
+				29FD8BB00E091BB563B66339 /* Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE6E44E9E2C45136FF1E650C /* PersonalEHR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E04CAEB8D0A8453F3B3874 /* Build configuration list for PBXNativeTarget "PersonalEHR" */;
+			buildPhases = (
+				EB4640ECA5BB851CA1BD41ED /* Sources */,
+				596FEB96734B9F53012E8592 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonalEHR;
+			packageProductDependencies = (
+				640B974E4B6F39F4652EA6E1 /* Supabase */,
+			);
+			productName = PersonalEHR;
+			productReference = 1FEFCF11B6A726207DECAE77 /* PersonalEHR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B300A207C04A0CFDA0EBC6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 0CEE9A1F4EFEF8192EB660AF /* Build configuration list for PBXProject "PersonalEHR" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C799B2396B32681E50D1C814;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				423506D4E8FD29E4EFE3BEC2 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6E0C1A2A1DCAA4A7C3A189A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE6E44E9E2C45136FF1E650C /* PersonalEHR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB4640ECA5BB851CA1BD41ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60166C54D94A478F2D867680 /* AIChatView.swift in Sources */,
+				A754E9FBD3E5797A0BBDE6FC /* AIChatViewModel.swift in Sources */,
+				6AE2353C641294083FDCD668 /* AIConversation.swift in Sources */,
+				E1034AF60ACE0E75A2A4F267 /* AIMessageView.swift in Sources */,
+				8B3C90F10766F614EEDF22B5 /* AIService.swift in Sources */,
+				BCD589644D17E0F90D26763E /* AuthService.swift in Sources */,
+				513C20A3A85B22E3F582A268 /* AuthViewModel.swift in Sources */,
+				E3EA76FA03099F209D147393 /* Constants.swift in Sources */,
+				137FDD9F7A7461CF01451C56 /* ContentView.swift in Sources */,
+				5B51CA4652F44AB3892FD887 /* Document.swift in Sources */,
+				840700DA83324205E5537B5A /* DocumentDetailView.swift in Sources */,
+				03A84BB8FAEB63BCCB6679F8 /* DocumentListView.swift in Sources */,
+				A8625214225BB3F00D953334 /* DocumentService.swift in Sources */,
+				80924309A30B52FD01059CD7 /* DocumentUploadView.swift in Sources */,
+				1AA3E2FA0A377E203B90DB4F /* DocumentViewModel.swift in Sources */,
+				9CDFC3FF1619AB96E918A021 /* LoginView.swift in Sources */,
+				0256B74CBE44944D48154055 /* PersonalEHRApp.swift in Sources */,
+				8006A43E98A5B3BA4859744F /* Profile.swift in Sources */,
+				1CE037547DF0E0FFB0576387 /* ProfileView.swift in Sources */,
+				3C6AAF3250990EF0DACA7ABC /* RegisterView.swift in Sources */,
+				E97416F683825F72D0F56DD2 /* StorageService.swift in Sources */,
+				F08D438C6D09BC9F5EB8D557 /* SupabaseClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A759AFEE7B582F2990D40791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PersonalEHR/Resources/PersonalEHR.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is needed to scan health documents";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID is used to securely unlock the app";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library access is needed to upload health documents";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personalehr.app;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBE9D8059F59E89196F3B705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DF20CCD6BC940CFABA854BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PersonalEHR/Resources/PersonalEHR.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is needed to scan health documents";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID is used to securely unlock the app";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library access is needed to upload health documents";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personalehr.app;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED16C3F14969FFC2AD779A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CEE9A1F4EFEF8192EB660AF /* Build configuration list for PBXProject "PersonalEHR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED16C3F14969FFC2AD779A8E /* Debug */,
+				DBE9D8059F59E89196F3B705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A4E04CAEB8D0A8453F3B3874 /* Build configuration list for PBXNativeTarget "PersonalEHR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A759AFEE7B582F2990D40791 /* Debug */,
+				DF20CCD6BC940CFABA854BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		423506D4E8FD29E4EFE3BEC2 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		640B974E4B6F39F4652EA6E1 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 423506D4E8FD29E4EFE3BEC2 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7B300A207C04A0CFDA0EBC6B /* Project object */;
+}
