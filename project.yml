@@ -1,6 +1,6 @@
-name: PersonalEHR
+name: Medfold
 options:
-  bundleIdPrefix: com.personalehr
+  bundleIdPrefix: ai.medfold
   deploymentTarget:
     iOS: "17.0"
   xcodeVersion: "16.0"
@@ -12,11 +12,11 @@ packages:
     from: "2.0.0"
 
 targets:
-  PersonalEHR:
+  Medfold:
     type: application
     platform: iOS
     sources:
-      - PersonalEHR
+      - Medfold
     settings:
       base:
         GENERATE_INFOPLIST_FILE: YES
@@ -28,12 +28,12 @@ targets:
         INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "Photo library access is needed to upload health documents"
         INFOPLIST_KEY_NSFaceIDUsageDescription: "Face ID is used to securely unlock the app"
         SWIFT_STRICT_CONCURRENCY: complete
-        PRODUCT_BUNDLE_IDENTIFIER: com.personalehr.app
+        PRODUCT_BUNDLE_IDENTIFIER: ai.medfold.app
     dependencies:
       - package: Supabase
         product: Supabase
     entitlements:
-      path: PersonalEHR/Resources/PersonalEHR.entitlements
+      path: Medfold/Resources/Medfold.entitlements
       properties:
         com.apple.developer.applesignin:
           - Default

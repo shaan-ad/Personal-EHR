@@ -1,8 +1,8 @@
-# Personal EHR - MVP Design Spec
+# Medfold - MVP Design Spec
 
 ## Context
 
-Users have health records scattered across patient portals, paper files, and email attachments. There is no single place to store, organize, and make sense of all personal health data. Personal EHR solves this by providing a secure document vault with an AI intelligence layer that extracts insights, summarizes records, and answers questions about a user's health history.
+Users have health records scattered across patient portals, paper files, and email attachments. There is no single place to store, organize, and make sense of all personal health data. Medfold solves this by providing a secure document vault with an AI intelligence layer that extracts insights, summarizes records, and answers questions about a user's health history.
 
 This spec covers the MVP: secure document storage + basic AI analysis. Phase 2 (wearable integration, structured data entry) is out of scope but the architecture accommodates it.
 
@@ -183,9 +183,9 @@ Swap providers by changing an environment variable. No app update required.
 
 ```
 Personal-EHR/
-  PersonalEHR/                    # iOS App (Xcode project)
+  Medfold/                    # iOS App (Xcode project)
     App/
-      PersonalEHRApp.swift        # App entry point
+      MedfoldApp.swift        # App entry point
       ContentView.swift           # Root view with tab navigation
     Models/
       Document.swift

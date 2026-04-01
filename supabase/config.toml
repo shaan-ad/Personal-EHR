@@ -1,5 +1,5 @@
 [project]
-id = "personal-ehr"
+id = "medfold"
 
 [api]
 enabled = true

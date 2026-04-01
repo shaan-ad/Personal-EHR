@@ -1,5 +1,5 @@
 -- ============================================================
--- Personal EHR: Database Schema + Row Level Security
+-- Medfold: Database Schema + Row Level Security
 -- ============================================================
 
 -- Enable UUID extension

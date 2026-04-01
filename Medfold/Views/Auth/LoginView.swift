@@ -17,9 +17,9 @@ struct LoginView: View {
                     Image(systemName: "heart.text.clipboard.fill")
                         .font(.system(size: 64))
                         .foregroundStyle(.blue)
-                    Text("Personal EHR")
+                    Text("Medfold")
                         .font(.largeTitle.bold())
-                    Text("Your health records, intelligently organized")
+                    Text("Your health records, intelligently folded")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                 }

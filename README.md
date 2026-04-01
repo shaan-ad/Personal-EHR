@@ -1,4 +1,4 @@
-# Personal EHR
+# Medfold
 
 A secure iOS app for storing, organizing, and analyzing personal health records with AI.
 
@@ -21,7 +21,7 @@ A secure iOS app for storing, organizing, and analyzing personal health records 
 ## Project Structure
 
 ```
-PersonalEHR/          # iOS app
+Medfold/              # iOS app
   App/                # Entry point, tab navigation
   Models/             # Data models (Document, Profile, AIConversation)
   Views/              # SwiftUI views (Auth, Documents, AI, Profile)
@@ -50,7 +50,7 @@ supabase/             # Backend
    cd Personal-EHR
    ```
 
-2. **Configure Supabase**: Update `PersonalEHR/Utilities/Constants.swift` with your Supabase project URL and anon key.
+2. **Configure Supabase**: Update `Medfold/Utilities/Constants.swift` with your Supabase project URL and anon key.
 
 3. **Run the database migration**: Copy `supabase/migrations/001_create_tables.sql` into your Supabase SQL Editor and run it.
 
@@ -66,7 +66,7 @@ supabase/             # Backend
    supabase functions deploy ai-chat
    ```
 
-6. **Open in Xcode**: Open `PersonalEHR.xcodeproj`, select a simulator or device, and run.
+6. **Open in Xcode**: Open `Medfold.xcodeproj`, select a simulator or device, and run.
 
 ## Roadmap
 
